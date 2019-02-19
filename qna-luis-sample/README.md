@@ -1,7 +1,10 @@
 # QnA/LUIS Sample
 
 This guide is a step-by-step instruction for creating a QnA Maker-like solution in Azure Gov using LUIS and the Bot Framework.
-See the included Visio diagam ```architectural diagram.vsdx``` for an architectural overview of this solution.
+
+## Architecture
+
+![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/diagram.png)
 
 ## Create Resources in Azure Gov
 1. Create a Resource Group
