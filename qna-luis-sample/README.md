@@ -1,6 +1,6 @@
 # QnA/LUIS Sample
-## Create Resource in Azure Gov
-1. Create Resource Group
+## Create Resources in Azure Gov
+1. Create a Resource Group
 
 ![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/create%20rg.jpg)
 
@@ -31,3 +31,11 @@
 
 ![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/whatisazure-intent.PNG)
 ![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/whatisazure-more-intents.PNG)
+
+5. Repeat this for any other Intents (questions) that you want LUIS to understand
+6. When you are done, at the top right click "Train" to train the LUIS model based on the input Intents and Utterances
+7. Click "Publish" to make the LUIS endpoint available to the Bot Framework app
+
+![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/train-publish.png)
+
+
