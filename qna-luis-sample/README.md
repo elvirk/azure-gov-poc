@@ -42,6 +42,7 @@ This guide is a step-by-step instruction for creating a QnA Maker-like solution 
 5. Repeat steps 3-4 for any other Intents (questions) that you want LUIS to understand
 6. When you are done, at the top right click "Train" to train the LUIS model based on the input Intents and Utterances
 7. Click "Publish" to make the LUIS endpoint available to the Bot Framework app
+- Please note that it may take some time for the updated Intents and Utterances to be available to the Bot App
 
 ![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/train-publish.png)
 
@@ -61,9 +62,9 @@ This guide is a step-by-step instruction for creating a QnA Maker-like solution 
 
 - This is where any custom code changes will be made to make the bot differ from the demo bot supplied by Azure
 5. Replace the code inside of the ```BasicBot.cs``` in Visual Studio with the code inside of [```BasicBot.cs```](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/BasicBot.cs) included is this GitHub repository to continue the demo
-- Please note that this code is very basic and only supports 1-level questions and answers
+- Please note that this code is very basic and only supports single-level questions and answers
 - Custom development will be required to enhance this solution further
-6. Publish the new application to the Web App Azure created previously
+6. Publish the updated application to the Web App created previously
 
 ![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/publish.png)
 
@@ -90,6 +91,6 @@ Microsoft Azure is an ever-expanding set of cloud services to help your organiza
 
 ## Embed Test Bot App
 - Inside of the Web App Bot click "Channels" on the left
-- Follow the instructions to copy the ```<iframe>``` code 
+- Follow the instructions to copy the ```<iframe>``` code into SharePoint or any target HTML application
 
 ![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/iframe.PNG)
