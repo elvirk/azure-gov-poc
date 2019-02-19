@@ -4,7 +4,7 @@
 <details>
 	<summary>Screenshot</summary>
 
-	![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/create%20rg.jpg | width=50)
+	![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/create%20rg.jpg)
 </details>
 
 2. Create LUIS Instance
