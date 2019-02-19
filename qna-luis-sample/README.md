@@ -29,5 +29,5 @@
 - For example, you might type in "What is Azure?", "Azure basics", "Tell me about Azure", etc.
 - This helps train the model to direct different questions to the appropriate single response
 
-![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/whatisazure-intent.png)
-![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/whatisazure-more-intents.png)
+![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/whatisazure-intent.PNG)
+![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/whatisazure-more-intents.PNG)
