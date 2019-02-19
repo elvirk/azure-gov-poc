@@ -15,10 +15,19 @@
 ## Configure LUIS
 1. Login to the LUIS applications portal (https://luis.azure.us/applications)
 2. Open up the LUIS application that was created during the bot framework app deployment
+
+![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/luis%20app.png)
+
 3. Click "Create New Intent"
 - Name the intent after the question you want answered
 - This should be a unique "key value" that you can reference to tie to a response later
+
+![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/new%20intent.png)
+![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/whatisazure.png)
+
 4. After creating a new Intent, add different Utterances that are derivatives of the question you want
 - For example, you might type in "What is Azure?", "Azure basics", "Tell me about Azure", etc.
 - This helps train the model to direct different questions to the appropriate single response
 
+![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/whatisazure-intent.png)![]()
+![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/whatisazure-intent.png)![]()
