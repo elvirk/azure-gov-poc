@@ -25,7 +25,7 @@ This guide is a step-by-step instruction for creating a QnA Maker-like solution 
 
 ![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/luis%20app.png)
 
-3. Click "Create New Intent"
+3. Click "Create New Intent""
 - Name the intent after the question you want answered
 - This should be a unique "key value" that you can reference to tie to a response later
 
@@ -50,7 +50,7 @@ This guide is a step-by-step instruction for creating a QnA Maker-like solution 
 
 ![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/bot-rg.PNG)
 
-2. Once inside the Web App Bot, click the Build tab and then Download Bot source code
+2. Once inside the Web App Bot, click the "Build" tab and then Download Bot source code
 
 ![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/bot-download.PNG)
 
@@ -69,7 +69,7 @@ This guide is a step-by-step instruction for creating a QnA Maker-like solution 
 
 ## Configure Bot App with Questions and Answers
 1. In Azure, open up the Web App Bot that was previously created
-2. Once inside the Web App Bot, click the Application Settings tab
+2. Once inside the Web App Bot, click the "Application Settings" tab
 
 ![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/new-setting.PNG)
 
@@ -82,12 +82,14 @@ Microsoft Azure is an ever-expanding set of cloud services to help your organiza
 
 ![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/new-answer.png)
 
-4. Click Save at the top
+4. Click "Save" at the top
 5. Repeat steps 3-4 for as many Intents that were added in LUIS
 
 ## Test Bot App
-- Inside of the Web App Bot, click Test in Web Chat on the left to test questions and answers inside of Azure
+- Inside of the Web App Bot, click "Test in Web Chat" on the left to test questions and answers inside of Azure
 
 ## Embed Test Bot App
-- Inside of the Web App Bot click Channels on the left
+- Inside of the Web App Bot click "Channels" on the left
 - Follow the instructions to copy the ```<iframe>``` code 
+
+![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/iframe.PNG)
