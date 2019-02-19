@@ -60,8 +60,8 @@ This guide is a step-by-step instruction for creating a QnA Maker-like solution 
 ![](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/images/sample-bot.png)
 
 - This is where any custom code changes will be made to make the bot differ from the demo bot supplied by Azure
-5. Replace the code inside of the ```BasicBot.cs``` in Visual Studio with the code inside of ```BasicBot.cs``` included is this GitHub repository to continue the demo
-- Please note that this is very basic and only supports 1-level questions and answers
+5. Replace the code inside of the ```BasicBot.cs``` in Visual Studio with the code inside of [```BasicBot.cs```](https://raw.githubusercontent.com/jimstrang/azure-gov-poc/master/qna-luis-sample/BasicBot.cs) included is this GitHub repository to continue the demo
+- Please note that this code is very basic and only supports 1-level questions and answers
 - Custom development will be required to enhance this solution further
 6. Publish the new application to the Web App Azure created previously
 
@@ -84,3 +84,10 @@ Microsoft Azure is an ever-expanding set of cloud services to help your organiza
 
 4. Click Save at the top
 5. Repeat steps 3-4 for as many Intents that were added in LUIS
+
+## Test Bot App
+- Inside of the Web App Bot, click Test in Web Chat on the left to test questions and answers inside of Azure
+
+## Embed Test Bot App
+- Inside of the Web App Bot click Channels on the left
+- Follow the instructions to copy the ```<iframe>``` code 
