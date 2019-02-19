@@ -89,7 +89,7 @@ Microsoft Azure is an ever-expanding set of cloud services to help your organiza
 ## Test Bot App
 - Inside of the Web App Bot, click "Test in Web Chat" on the left to test questions and answers inside of Azure
 
-## Embed Test Bot App
+## Embed Bot App
 - Inside of the Web App Bot click "Channels" on the left
 - Follow the instructions to copy the ```<iframe>``` code into SharePoint or any target HTML application
 
